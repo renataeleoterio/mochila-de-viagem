@@ -29,7 +29,7 @@ form.addEventListener('submit', (evento) => {
     //se o array nao existe id = 0
     //e se existir no ultimo elemento pega o id e soma 1
     //para o id nao ser sempre o mesmo
-    itemAtual.id = itens[itens.length - 1] ? (itens[itens.length = 1]).id + 1 : 0
+    itemAtual.id = itens[itens.length - 1] ? (itens[itens.length - 1]).id + 1 : 0
 
     criarElemento(itemAtual)
 
